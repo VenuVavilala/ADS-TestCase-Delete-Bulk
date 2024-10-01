@@ -18,7 +18,7 @@ def deleteId(id):
     }
     
     # Construct the URL dynamically using the current ID
-    url = f"https://dev.azure.com/ADSP-Org-A03/ADS/_apis/test/testcases/{id}?api-version=7.1-preview.1"
+    url = "https://dev.azure.com/XXX/ADS/_apis/test/testcases/{id}?api-version=7.1-preview.1"
     
     response = requests.delete(url, headers=headers)
     
