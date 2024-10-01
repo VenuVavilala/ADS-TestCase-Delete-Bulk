@@ -8,7 +8,7 @@ delete_ids = [35916, 35917, 35919, 35920, 35921, 35922, 35923, 35924, 35925, 359
 
 
 def deleteId(id):
-    pat = '255cmzyh6xdztpkooqapd2g6rofx4hxhzuffq76umoatzy6jm6la'  # Your personal access token (PAT) here
+    pat = 'XXXX'  # Your personal access token (PAT) here
 
     authorization = str(base64.b64encode(bytes(':'+pat, 'ascii')), 'ascii')
     
