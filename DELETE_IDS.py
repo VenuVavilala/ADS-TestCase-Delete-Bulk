@@ -7,7 +7,7 @@ import base64
 delete_ids = [154731,161919,161963,162154,162164,162184,162191,162195,170033,170040,170043,170045,]
 
 def deleteId(id):
-    pat = '255cmzyh6xdztpkooqapd2g6rofx4hxhzuffq76umoatzy6jm6la'  # Your personal access token (PAT) here
+    pat = 'XXX'  # Your personal access token (PAT) here
 
     authorization = str(base64.b64encode(bytes(':'+pat, 'ascii')), 'ascii')
     
